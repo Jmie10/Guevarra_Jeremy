@@ -85,6 +85,9 @@ nav a{
   height: 860px;
   width: auto;
   object-fit: contain;
+  border: 6px solid linear-gradient(90deg, #825fce, #c39bd3);
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
 }
 
 
