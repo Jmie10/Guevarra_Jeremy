@@ -96,20 +96,24 @@ nav a{
 }
 
 /* PERSONAL INFO*/
+#PInfo {
+  padding-top: 80px;
+}
+
 .info-box {
   background: #fff;
-  border-radius: 20px;              /* same */
-  padding: 30px 40px;               /* same */
-  margin: 30px auto;                /* same */
-  max-width: 800px;                 /* same */
-  box-shadow: 0 10px 25px rgba(0,0,0,0.12); /* same */
+  border-radius: 20px;              
+  padding: 12px 20px;               
+  margin: 10px auto;              
+  max-width: 800px;                 
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12); 
 
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
 }
 
-/* subtle accent line (does NOT affect size) */
+
 .info-box::before {
   content: "";
   position: absolute;
@@ -120,35 +124,35 @@ nav a{
   background: linear-gradient(90deg, #825fce, #c39bd3);
 }
 
-/* soft hover effect (no movement, no resize) */
+
 .info-box:hover {
   box-shadow: 0 14px 30px rgba(0,0,0,0.18);
 }
 
-/* TITLE — size preserved */
+
 .info-box h2 {
   text-align: center;
-  font-size: 32px;                  /* same */
+  font-size: 32px;                 
   color: #333;
-  margin-bottom: 20px;              /* same */
+  margin-bottom: 20px;              
   letter-spacing: 0.5px;
 }
 
-/* LIST ITEMS — size preserved */
+
 .info-box ul {
   list-style: none;
   padding-left: 0;
 }
 
 .info-box ul li {
-  margin: 12px 0;                   /* same */
+  margin: 12px 0;                  
   font-size: 16px;
   color: #333;
   padding-left: 22px;
   position: relative;
 }
 
-/* decorative bullet (does NOT affect layout) */
+
 .info-box ul li::before {
   content: "•";
   position: absolute;
